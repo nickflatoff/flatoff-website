@@ -6,10 +6,10 @@ const Brands: React.FC = () => {
   return (
     <SectionWrapper>
       <SectionHeader className="text-center">
-        Experience with a variety of equipment & brands
+        Equipment & Brands We Work On
       </SectionHeader>
-      <ul className="flex flex-wrap justify-center items-center">
-        <li className="p-4 m-4">
+      <ul className="flex flex-wrap items-center justify-center">
+        <li className="m-4 p-4">
           <Image
             src="/logos/Sovda-Logo-250x250-Black.png"
             alt="Sovda"
@@ -17,7 +17,7 @@ const Brands: React.FC = () => {
             height={200}
           />
         </li>
-        <li className="p-4 m-4">
+        <li className="m-4 p-4">
           {" "}
           <Image
             src="/logos/vortxkleanair.png"
@@ -26,7 +26,7 @@ const Brands: React.FC = () => {
             height={100}
           />
         </li>
-        <li className="p-4 m-4">
+        <li className="m-4 p-4">
           <Image
             src="/logos/loring-logo-black-notag.svg"
             alt="Loring"
@@ -34,7 +34,7 @@ const Brands: React.FC = () => {
             height={200}
           />
         </li>
-        <li className="p-4 m-4">
+        <li className="m-4 p-4">
           <Image
             src="/logos/probat-logo.png"
             alt="Probat"
@@ -42,7 +42,7 @@ const Brands: React.FC = () => {
             height={100}
           />
         </li>
-        <li className="p-4 m-4">
+        <li className="m-4 p-4">
           <Image
             src="/logos/Diedrich-logo.png"
             alt="Dietrich"
@@ -50,7 +50,7 @@ const Brands: React.FC = () => {
             height={100}
           />
         </li>
-        <li className="p-4 m-4">
+        <li className="m-4 p-4">
           <Image
             src="/logos/san-fran-logo.webp"
             alt="San Franciscan"
@@ -58,7 +58,7 @@ const Brands: React.FC = () => {
             height={100}
           />
         </li>
-        <li className="p-4 m-4">
+        <li className="m-4 p-4">
           <Image
             src="/logos/Giesen-Coffee-Roasters-White.png"
             alt="Giesen"
@@ -66,7 +66,7 @@ const Brands: React.FC = () => {
             height={100}
           />
         </li>
-        <li className="p-4 m-4">
+        <li className="m-4 p-4">
           <Image
             src="/logos/proaster-logo.png"
             alt="Proaster"
@@ -74,13 +74,15 @@ const Brands: React.FC = () => {
             height={100}
           />
         </li>
-        <li className="p-8 m-4 bg-slate-800 rounded-xl">Conveyance Systems</li>
-        <li className="p-8 m-4 bg-slate-800 rounded-xl">Optical Sorters</li>
-        <li className="p-8 m-4 bg-slate-800 rounded-xl">Afterburners</li>
-        <li className="p-8 m-4 bg-slate-800 rounded-xl">
+      </ul>
+      <ul className="mt-14 flex flex-wrap items-center justify-center">
+        <li className="m-4 rounded-xl bg-slate-800 p-8">Conveyance Systems</li>
+        <li className="m-4 rounded-xl bg-slate-800 p-8">Optical Sorters</li>
+        <li className="m-4 rounded-xl bg-slate-800 p-8">Afterburners</li>
+        <li className="m-4 rounded-xl bg-slate-800 p-8">
           Relay and electrical cabinets
         </li>
-        <li className="p-8 m-4 bg-slate-800 rounded-xl">And Much More...</li>
+        <li className="m-4 rounded-xl bg-slate-800 p-8">And Much More...</li>
       </ul>
     </SectionWrapper>
   );

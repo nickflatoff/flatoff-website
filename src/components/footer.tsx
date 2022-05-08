@@ -4,10 +4,10 @@ const Footer: React.FC = () => {
     <div className="w-screen">
       <div className="bg-slate-700 p-4">
         <div className="text-center ">
-          <p className="text-slate-300 m-0">
+          <p className="m-0 text-slate-300">
             Made with 💪 ❤️ ☕️ in Portland, Oregon.
           </p>
-          <p className="text-slate-300 m-0"> Copyright {currentYear}</p>
+          <p className="m-0 text-slate-300"> Copyright {currentYear}</p>
         </div>
       </div>
     </div>

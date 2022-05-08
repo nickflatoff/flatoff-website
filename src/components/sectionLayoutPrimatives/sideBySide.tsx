@@ -11,7 +11,7 @@ const sideBySide = (props: {
 }) => {
   return (
     <div
-      className={`lg:grid grid-cols-2 grid-flow-row-dense gap-4 ${props.className}`}
+      className={`grid-flow-row-dense grid-cols-2 gap-4 lg:grid ${props.className}`}
     >
       <div
         className={`w-100 h-100 ${props.contentRight ? "md:col-start-2" : ""}`}
@@ -22,7 +22,7 @@ const sideBySide = (props: {
       <div className=" w-100 h-100">
         {props.secondChild && <div>{props.secondChild}</div>}
         {!props.secondChild && (
-          <div className="w-full h-full aspect-video bg-gray-600"></div>
+          <div className="aspect-video h-full w-full bg-gray-600"></div>
         )}
       </div>
     </div>

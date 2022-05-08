@@ -4,16 +4,14 @@ import SectionWrapper from "./sectionLayoutPrimatives/sectionWrapper";
 
 const Services: React.FC = () => {
   return (
-    <SectionWrapper>
-      <SectionHeader className="text-center">
-        We Offer A Variety of Services
-      </SectionHeader>
-      <ContentAndImage className="mb-20">
-        <h3 className="text-xl font-semibold my-8">Core Offerings</h3>
+    <SectionWrapper id="services">
+      <SectionHeader className="text-center">Our Services</SectionHeader>
+      <ContentAndImage className="mb-20" src="/pictures/IMG_3278.jpg">
+        <h3 className="my-8 text-3xl font-semibold">Core Offerings</h3>
         <ul>
-          <li className="mb-4 text-lg p-4 bg-slate-800 w-fit rounded-xl">
+          <li className="mb-4 w-fit rounded-xl bg-slate-800 p-4 text-2xl">
             <svg
-              className="w-6 h-6 inline mr-3"
+              className="mr-3 inline h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -28,9 +26,9 @@ const Services: React.FC = () => {
             </svg>
             Roaster & Support Equipment Installation
           </li>
-          <li className="mb-4 text-lg p-4 bg-slate-800 w-fit rounded-xl">
+          <li className="mb-4 w-fit rounded-xl bg-slate-800 p-4 text-2xl">
             <svg
-              className="w-6 h-6 inline mr-3"
+              className="mr-3 inline h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -45,9 +43,9 @@ const Services: React.FC = () => {
             </svg>
             Optical Sorter Calibration
           </li>
-          <li className="mb-4 text-lg p-4 bg-slate-800 w-fit rounded-xl">
+          <li className="mb-4 w-fit rounded-xl bg-slate-800 p-4 text-2xl">
             <svg
-              className="w-6 h-6 inline mr-3"
+              className="mr-3 inline h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -68,9 +66,9 @@ const Services: React.FC = () => {
             </svg>
             Preventative Maintenance & Inspection
           </li>
-          <li className="mb-4 text-lg p-4 bg-slate-800 w-fit rounded-xl">
+          <li className="mb-4 w-fit rounded-xl bg-slate-800 p-4 text-2xl">
             <svg
-              className="w-6 h-6 inline mr-3"
+              className="mr-3 inline h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -85,9 +83,9 @@ const Services: React.FC = () => {
             </svg>
             Roastery Planning & Equipment Selection
           </li>
-          <li className="mb-4 text-lg p-4 bg-slate-800 w-fit rounded-xl">
+          <li className="mb-4 w-fit rounded-xl bg-slate-800 p-4 text-2xl">
             <svg
-              className="w-6 h-6 inline mr-3"
+              className="mr-3 inline h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -104,12 +102,12 @@ const Services: React.FC = () => {
           </li>
         </ul>
       </ContentAndImage>
-      <ContentAndImage contentRight>
-        <h3 className="text-xl font-semibold my-8">Additional Services</h3>
+      <ContentAndImage contentRight src="/pictures/verve.jpeg">
+        <h3 className="my-8 text-xl font-semibold">Additional Services</h3>
         <ul>
-          <li className="mb-4 text-lg p-4 bg-slate-800 w-fit rounded-xl">
+          <li className="mb-4 w-fit rounded-xl bg-slate-800 p-4 text-2xl">
             <svg
-              className="w-6 h-6 inline mr-3"
+              className="mr-3 inline h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -124,9 +122,9 @@ const Services: React.FC = () => {
             </svg>
             Damage Estimates
           </li>
-          <li className="mb-4 text-lg p-4 bg-slate-800 w-fit rounded-xl">
+          <li className="mb-4 w-fit rounded-xl bg-slate-800 p-4 text-2xl">
             <svg
-              className="w-6 h-6 inline mr-3"
+              className="mr-3 inline h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -141,9 +139,9 @@ const Services: React.FC = () => {
             </svg>
             Roaster Upgrades & Customizations
           </li>
-          <li className="mb-4 text-lg p-4 bg-slate-800 w-fit rounded-xl">
+          <li className="mb-4 w-fit rounded-xl bg-slate-800 p-4 text-2xl">
             <svg
-              className="w-6 h-6 inline mr-3"
+              className="mr-3 inline h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -158,9 +156,9 @@ const Services: React.FC = () => {
             </svg>
             Business Planning Development & Consultation
           </li>
-          <li className="mb-4 text-lg p-4 bg-slate-800 w-fit rounded-xl">
+          <li className="mb-4 w-fit rounded-xl bg-slate-800 p-4 text-2xl">
             <svg
-              className="w-6 h-6 inline mr-3"
+              className="mr-3 inline h-6 w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

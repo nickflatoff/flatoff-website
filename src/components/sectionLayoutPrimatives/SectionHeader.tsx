@@ -4,7 +4,7 @@ const SectionHeader: React.FC<{ children: string; className?: string }> = ({
 }) => {
   return (
     <h2
-      className={`text-4xl font-semibold my-20 underline underline-offset-8 ${className}`}
+      className={`my-20 text-5xl font-semibold underline underline-offset-8 ${className}`}
     >
       {children}
     </h2>
