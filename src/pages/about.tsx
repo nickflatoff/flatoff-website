@@ -1,6 +1,7 @@
 import { NextPage } from "next";
+import Head from "next/head";
 import Cta from "../components/Cta";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import ContentAndImage from "../components/sectionLayoutPrimatives/contentAndImage";
 import SectionHeader from "../components/sectionLayoutPrimatives/SectionHeader";
@@ -9,6 +10,9 @@ import SectionWrapper from "../components/sectionLayoutPrimatives/sectionWrapper
 const About: NextPage = () => {
   return (
     <>
+      <Head>
+        <title key={"title"}>About Nicholas</title>
+      </Head>
       <Nav />
       <SectionWrapper>
         <ContentAndImage

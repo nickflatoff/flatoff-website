@@ -9,11 +9,15 @@ import {
   GlobeIcon,
 } from "@heroicons/react/outline";
 import SectionWrapper from "../components/sectionLayoutPrimatives/sectionWrapper";
+import Head from "next/head";
 
 const Contact: NextPage = () => {
   analytics.track("contact page visit");
   return (
     <>
+      <Head>
+        <title key={"title"}>Contact Nicholas</title>
+      </Head>
       <Nav />
       <SectionWrapper noPadding>
         <div className="container mx-auto px-5 py-24">

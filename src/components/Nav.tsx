@@ -7,6 +7,7 @@ import React from "react";
 const Nav: React.FC = () => {
   const navItems: { title: string; path: string }[] = [
     { title: "About", path: "/about" },
+    { title: "Services", path: "/#services" },
     { title: "Contact", path: "/contact" },
   ];
 
