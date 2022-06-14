@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 import Cta from "../components/Cta";
 import Services from "../components/Services";
 import Nav from "../components/Nav";
-import Footer from "../components/Footer";
+import Footer from "../components/PageFooter";
 
 const Home: NextPage<{ className?: string }> = ({ className }) => {
   return (

@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import Cta from "../components/Cta";
-import Footer from "../components/Footer";
+import Footer from "../components/PageFooter";
 import Nav from "../components/Nav";
 import ContentAndImage from "../components/sectionLayoutPrimatives/contentAndImage";
 import SectionHeader from "../components/sectionLayoutPrimatives/SectionHeader";
